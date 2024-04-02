@@ -1,5 +1,5 @@
 builtin_interfaces/Time stamp
-float32 long_accel_mps2
 float32 velocity_mps
 float32 wheel_angle_rad
+float32 break_pressure_psi
 float32 estop
