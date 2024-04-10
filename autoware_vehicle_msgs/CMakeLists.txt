@@ -23,11 +23,13 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     "msg/VehicleKinematicState.msg"
     "msg/VehicleOdometry.msg"
     "msg/VelocityReport.msg"
+    "msg/DonkeyTelemetry.msg"
     "srv/ControlModeCommand.srv"
   DEPENDENCIES
     "autoware_planning_msgs"
     "builtin_interfaces"
     "std_msgs"
+    "sensor_msgs"
   ADD_LINTER_TESTS
 )
 
